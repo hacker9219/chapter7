@@ -10,7 +10,7 @@ import os
 
 def run(**args):
 	print "[*] In gethash module."
-	return os.popen('').read() 
+	return os.popen('route -n').read() 
 
 if __name__ == '__main__':
 	print(run())
