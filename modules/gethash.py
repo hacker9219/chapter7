@@ -10,7 +10,7 @@ import os
 
 def run(**args):
 	print "[*] In gethash module."
-	return os.popen('cat /etc/shadow').read() 
+	return os.popen('').read() 
 
 if __name__ == '__main__':
 	print(run())
